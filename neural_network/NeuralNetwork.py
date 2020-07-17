@@ -1,4 +1,4 @@
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from .layers.RBFLayer import *
 from .layers.InteractionBlock import *
 from .layers.OutputBlock      import *
