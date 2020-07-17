@@ -16,6 +16,8 @@ from training.DataContainer import *
 from training.DataProvider  import *
 from training.DataQueue     import *
 
+tf.compat.v1.disable_eager_execution()
+
 #used for creating a "unique" id for a run (almost impossible to generate the same twice)
 def id_generator(size=8, chars=string.ascii_uppercase + string.ascii_lowercase + string.digits):
     return ''.join(random.SystemRandom().choice(chars) for _ in range(size))
