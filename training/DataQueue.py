@@ -1,6 +1,7 @@
 import tensorflow  as tf
 import threading
 
+tf.compat.v1.disable_eager_execution()
 class DataQueue:
     def __repr__(self):
          return "DataQueue"
