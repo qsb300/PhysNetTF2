@@ -1,3 +1,6 @@
+# PhysNet (Tensorflow2.0 compitable)
+Upgrade with tf_upgrade_v2, see report.txt for detail 
+
 # PhysNet
 
 Tensorflow implementation of PhysNet (see https://arxiv.org/abs/1902.08408) for details
